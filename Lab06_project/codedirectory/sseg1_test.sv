@@ -27,7 +27,7 @@ module sseg1_test();
     reg sel;
     wire [1:0] seg_un;
     wire dp;
-    wire [4:0] sseg;
+    wire[6:0] sseg;
     wire seg_L;
     wire seg_R;
     
@@ -43,4 +43,14 @@ module sseg1_test();
         );
         
     initial begin
+    A[3:0]=4'b0000; B[3:0]=4'b0000; sel=1'b0; #10;
+    A[3:0]=4'b1010; B[3:0]=4'b0101; #10;
+    sel=1'b0; #10;
+    sel=1'b1; #10;
+    A[3:0]=4'b0000; B[3:0]=4'b0000; sel=1'b0; #10;
+    A[3:0]=4'b1001; B[3:0]=4'b0111; #10;
+    sel=1'b0; #10;
+    sel=1'b1; #10;
+    $finish;
+    end
 endmodule

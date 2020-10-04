@@ -26,7 +26,7 @@ module sseg1(
     input sel,
     output [1:0] seg_un,
     output dp,
-    output[4:0] sseg,
+    output[6:0] sseg,
     output seg_L,
     output seg_R
     );
@@ -44,9 +44,9 @@ sseg_decoder sseg0(
     .sseg(sseg)
     );
     
-assign sel_L=~sel;
-assign sel_R=sel;
-assign seg_un[3:2] = 2'b11;
+assign seg_L=~sel;
+assign seg_R=sel;
+assign seg_un[1:0] = 2'b11;
 assign dp = 1;
 
 endmodule

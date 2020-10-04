@@ -73,17 +73,79 @@ Type the summary of your experiment and results here.
 
 \section*{Q\&A}
 
-Answer questions posed in the lab assignment here.
+\begin{enumerate}
+	\item List of errors found during simulation. What does this tell you about why we run simulations?
+	
+	The only error I had when I ran the simulation of my top-level module was my an outputs were not connected properly which resulted in them having a value of Z in the simulation. To fix this, I checked each instance of those outputs and realized that I mispelled the labels that I had for them within the sseg1.sv code.
+	This shows the importance of running simulations because it reveals minor errors and where there are disconnections within my build.
+	
+	\item How many wires are connected to the 7-segment display? If the segments were not all connected together, how many wires would there have to be? Why do we prefer the current method vs. separating all of the segments?
+	
+	There is 1 wire connected to the 7-segment display. If the segments were not all connected together, there would have to be 7 wires. We prefer the current method because it is much easier to follow and less prone to having a mistake like missing a wire or repeating the same one.
+	
+\end{enumerate}
 
 
 \section*{Results}
 
-In this section, put your simulation waveforms, results tables, pictures of hardware, and any other required items.
+\begin{table}[ht]\centering
+	\caption{ERT for 4-bit MUX}
+	\label{tbl:example_table}
+	\begin{tabular}{ccc|c}
+		\toprule
+		sel & in0 & in1 & out \\
+		\midrule
+		0 & 0001 & 0000 & 0001 \\
+		1 & 0001 & 0000 & 0000 \\
+		0 & 1010 & 0101 & 1010 \\
+		1 & 0001 & 0000 & 0101 \\
+		\bottomrule
+	\end{tabular} 
+\end{table}
 
+\begin{table}[ht]\centering
+	\caption{ERT for Seven-segment Decoder}
+	\label{tbl:example_table}
+	\begin{tabular}{cc|cccccccccccccccc}
+		\toprule
+		& Time(ns) & 0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 & 100 & 110 & 120 & 130 & 140 & 150 \\
+		\midrule
+		Input & num(hex) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & A & B & C & D & E & F \\
+		Output & sseg(hex)  & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & A & B & C & D & E & F \\
+		\bottomrule
+	\end{tabular} 
+\end{table}
+
+\begin{table}[ht]\centering
+	\caption{ERT for Top-level Module}
+	\label{tbl:example_table}
+	\begin{tabular}{ccc|c}
+		\toprule
+		sel & in0 & in1 & out \\
+		\midrule
+		0 & 0001 & 0000 & 0001 \\
+		1 & 0001 & 0000 & 0000 \\
+		0 & 1010 & 0101 & 1010 \\
+		1 & 0001 & 0000 & 0101 \\
+		\bottomrule
+	\end{tabular} 
+\end{table}
 
 \section*{Code}
 
-Include all of the code you wrote or modified here.
+\Verilog[firstline=22, lastline=31, caption=MUX Verilog code]{Lab06_project/codedirectory/mux2_4b.sv}|
+
+\Verilog[firstline=22, lastline=45, caption=MUX Test Verilog code]{Lab06_project/codedirectory/mux2_4b_test.sv}|
+
+\Verilog[firstline=22, lastline=51, caption=Seven-segment Decoder Verilog code]{Lab06_project/codedirectory/sseg_decoder.sv}|
+
+\Verilog[firstline=22, lastline=42, caption=Seven-segment Decoder Test Verilog code]{Lab06_project/codedirectory/sseg_decoder_test.sv}|
+
+\Verilog[firstline=22, lastline=43, caption=Seven-segment Wrapper Verilog code]{Lab06_project/codedirectory/sseg1_wrapper.sv}|
+
+\Verilog[firstline=22, lastline=53, caption=Seven-segment 1 Verilog code]{Lab06_project/codedirectory/sseg1.sv}|
+
+\Verilog[firstline=22, lastline=57, caption=Seven-segment 1 Test Verilog code]{Lab06_project/codedirectory/sseg1_test.sv}|
 
 
 \end{document}
