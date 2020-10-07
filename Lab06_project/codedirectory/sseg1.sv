@@ -21,9 +21,32 @@
 
 
 module sseg1(
-    input [15:0] sw,
-    output [3:0] an,
-    output [6:0] seg,
-    output dp
+    input [3:0] A,
+    input [3:0] B,
+    input sel,
+    output [1:0] seg_un,
+    output dp,
+    output[6:0] sseg,
+    output seg_L,
+    output seg_R
     );
+    wire[3:0] num;
+    
+mux2_4b mux0(
+    .in0(A),
+    .in1(B),
+    .sel(sel),
+    .out(num)
+    );
+    
+sseg_decoder sseg0(
+    .num(num),
+    .sseg(sseg)
+    );
+    
+assign seg_L=~sel;
+assign seg_R=sel;
+assign seg_un[1:0] = 2'b11;
+assign dp = 1;
+
 endmodule

@@ -125,7 +125,6 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 2
-  set_param xicom.use_bs_reader 1
   open_checkpoint sseg1_wrapper_routed.dcp
   set_property webtalk.parent_dir C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.cache/wt [current_project]
 set_property TOP sseg1_wrapper [current_fileset]
