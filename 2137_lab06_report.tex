@@ -68,7 +68,13 @@
 
 \section*{Summary}
 
-Type the summary of your experiment and results here.  
+The purpose of this lab was to set up a circuit to display an 8-bit number on two 7-segment displays which are two hexadecimal digits. In order to do this, I designed four combinational logic modules in Verilog and implemented my design on a Basys3 board.
+
+The first combinational logic module built was a multiplexer, or MUX. My multiplexer has two inputs and one output that depends on another input called select. In this case, my two inputs are 4 bit binary numbers while select is a 1 bit number; if select is on, my MUX outputs the second input (in1) and if select is off, my MUX outputs the first input (in0). So, the output is also a four bit number.
+
+The second combinational logic module built was a seven-segment decoder. The seven-segment decoder takes in a four bit hexadecimal number and outputs a seven bit binary number that corresponds to the display. The most significant bit of the output relates to "G" on the seven-segment display, and in this case, the output is active low, which means that 1 actually means off while 0 means on. So, segments "A-F" of the seven-segment display would be on to make the shape of a 0.
+
+The third combinational logic module built was the actual seven-segment itself. It combines the MUX and decoder using a four bit wire; the wire takes the output of the MUX and inputs it into the decoder to give the 7 bit output. The top module is a wrapper around this module. The wrapper has a 16 bit switch input with a 1 bit output for the decimal point, a 4 bit output for the anode of the display, and a 7 bit output for the 7 segments of the display. These correspond directly to a constraints file for the Basys3 board, allowing me to generate a bitsream and program the board to behave with the code I wrote in Verilog. 
 
 
 \section*{Q\&A}
