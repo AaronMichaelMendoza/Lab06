@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.runs/impl_1/sseg1_wrapper.tcl"
+  variable script "C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.runs/impl_1/sseg1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -127,7 +127,7 @@ set rc [catch {
   set_param chipscope.maxJobs 2
   set_param xicom.use_bs_reader 1
   open_checkpoint sseg1_wrapper_routed.dcp
-  set_property webtalk.parent_dir H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.cache/wt [current_project]
 set_property TOP sseg1_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

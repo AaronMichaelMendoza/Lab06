@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Sun Oct  4 14:09:59 2020'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Mon Oct  5 14:44:32 2020'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="2902540" description="" />
-  <keyValuePair key="date_generated" value="Sun Oct  4 14:09:59 2020" description="" />
+  <keyValuePair key="date_generated" value="Mon Oct  5 14:44:32 2020" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2020.1 (64-bit)" description="" />
   <keyValuePair key="project_id" value="ce935ea9ca134252afb0c3e03183d5b6" description="" />
-  <keyValuePair key="project_iteration" value="2" description="" />
-  <keyValuePair key="random_id" value="a2da749b4ef4525f8558df6660e607c5" description="" />
-  <keyValuePair key="registration_id" value="a2da749b4ef4525f8558df6660e607c5" description="" />
+  <keyValuePair key="project_iteration" value="3" description="" />
+  <keyValuePair key="random_id" value="90165c62da685b17bc5933ba2c3c724c" description="" />
+  <keyValuePair key="registration_id" value="90165c62da685b17bc5933ba2c3c724c" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7a35t" description="" />
   <keyValuePair key="target_family" value="artix7" description="" />
@@ -19,11 +19,11 @@
   <keyValuePair key="tool_flow" value="Vivado" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
-  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz" description="" />
-  <keyValuePair key="cpu_speed" value="3408 MHz" description="" />
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz" description="" />
+  <keyValuePair key="cpu_speed" value="2112 MHz" description="" />
   <keyValuePair key="os_name" value="Windows Server 2016 or Windows 10" description="" />
   <keyValuePair key="os_release" value="major release  (build 9200)" description="" />
-  <keyValuePair key="system_ram" value="34.000 GB" description="" />
+  <keyValuePair key="system_ram" value="17.000 GB" description="" />
   <keyValuePair key="total_processors" value="1" description="" />
  </section>
  <section name="phys_opt_design_post_place" level="1" order="3" description="">
@@ -355,83 +355,92 @@
    <keyValuePair key="addvirtualcabledialog_host_name" value="4" description="" />
    <keyValuePair key="basedialog_apply" value="1" description="" />
    <keyValuePair key="basedialog_cancel" value="3" description="" />
-   <keyValuePair key="basedialog_ok" value="32" description="" />
+   <keyValuePair key="basedialog_ok" value="38" description="" />
    <keyValuePair key="basedialog_yes" value="2" description="" />
    <keyValuePair key="boardchooser_board_table" value="1" description="" />
-   <keyValuePair key="cmdmsgdialog_ok" value="1" description="" />
+   <keyValuePair key="cmdmsgdialog_ok" value="2" description="" />
    <keyValuePair key="constraintschooserpanel_add_files" value="2" description="" />
    <keyValuePair key="constraintschooserpanel_copy_constraints_files_into_project" value="2" description="" />
-   <keyValuePair key="filesetpanel_file_set_panel_tree" value="140" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="147" description="" />
    <keyValuePair key="filesetpanel_messages" value="2" description="" />
    <keyValuePair key="filtertoolbar_hide_all" value="1" description="" />
    <keyValuePair key="filtertoolbar_show_all" value="1" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="22" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="44" description="" />
+   <keyValuePair key="gettingstartedview_open_project" value="4" description="" />
    <keyValuePair key="graphicalview_zoom_fit" value="4" description="" />
-   <keyValuePair key="hardwaretreepanel_hardware_tree_table" value="34" description="" />
-   <keyValuePair key="hpopuptitle_close" value="1" description="" />
+   <keyValuePair key="hardwaredeviceproppanels_specify_bitstream_file" value="1" description="" />
+   <keyValuePair key="hardwaretreepanel_hardware_tree_table" value="49" description="" />
+   <keyValuePair key="hjfilechooserrecentlistpreview_recent_directories" value="1" description="" />
+   <keyValuePair key="hpopuptitle_close" value="2" description="" />
+   <keyValuePair key="labtoolsmenu_jtag_scan_rate" value="3" description="" />
    <keyValuePair key="msgtreepanel_message_view_tree" value="12" description="" />
    <keyValuePair key="msgview_error_messages" value="1" description="" />
    <keyValuePair key="msgview_information_messages" value="2" description="" />
    <keyValuePair key="msgview_status_messages" value="2" description="" />
    <keyValuePair key="opentargetwizard_connect_to" value="1" description="" />
    <keyValuePair key="pacommandnames_add_sources" value="7" description="" />
-   <keyValuePair key="pacommandnames_auto_connect_target" value="6" description="" />
+   <keyValuePair key="pacommandnames_auto_connect_target" value="19" description="" />
    <keyValuePair key="pacommandnames_auto_update_hier" value="10" description="" />
    <keyValuePair key="pacommandnames_close_target" value="1" description="" />
+   <keyValuePair key="pacommandnames_create_hardware_dashboards" value="1" description="" />
    <keyValuePair key="pacommandnames_goto_implemented_design" value="1" description="" />
    <keyValuePair key="pacommandnames_make_active_simset" value="4" description="" />
    <keyValuePair key="pacommandnames_open_target" value="3" description="" />
-   <keyValuePair key="pacommandnames_open_target_wizard" value="1" description="" />
+   <keyValuePair key="pacommandnames_open_target_wizard" value="2" description="" />
    <keyValuePair key="pacommandnames_simulation_reset" value="4" description="" />
    <keyValuePair key="pacommandnames_simulation_run" value="4" description="" />
    <keyValuePair key="pacommandnames_simulation_run_behavioral" value="6" description="" />
-   <keyValuePair key="paviews_project_summary" value="9" description="" />
+   <keyValuePair key="paviews_project_summary" value="13" description="" />
    <keyValuePair key="programcfgmemdialog_contents_of_configuration_file" value="4" description="" />
-   <keyValuePair key="programdebugtab_open_target" value="1" description="" />
-   <keyValuePair key="programdebugtab_program_device" value="5" description="" />
+   <keyValuePair key="programdebugtab_open_target" value="13" description="" />
+   <keyValuePair key="programdebugtab_program_device" value="8" description="" />
    <keyValuePair key="programdebugtab_refresh_device" value="5" description="" />
-   <keyValuePair key="programfpgadialog_program" value="6" description="" />
+   <keyValuePair key="programfpgadialog_program" value="8" description="" />
    <keyValuePair key="projectsettingsgadget_edit_project_settings" value="1" description="" />
-   <keyValuePair key="quickhelp_help" value="1" description="" />
+   <keyValuePair key="projectsummarydrcpanel_open_drc_report" value="1" description="" />
+   <keyValuePair key="quickhelp_help" value="2" description="" />
+   <keyValuePair key="rdicommands_properties" value="1" description="" />
    <keyValuePair key="rdicommands_save_file" value="15" description="" />
-   <keyValuePair key="rungadget_show_warning_and_error_messages_in_messages" value="1" description="" />
+   <keyValuePair key="rungadget_show_warning_and_error_messages_in_messages" value="2" description="" />
    <keyValuePair key="settingsdialog_project_tree" value="1" description="" />
    <keyValuePair key="settingsprojectgeneralpage_choose_device_for_your_project" value="1" description="" />
    <keyValuePair key="srcchooserpanel_add_directories" value="1" description="" />
    <keyValuePair key="srcchooserpanel_add_hdl_and_netlist_files_to_your_project" value="13" description="" />
    <keyValuePair key="srcchooserpanel_add_or_create_source_file" value="2" description="" />
    <keyValuePair key="srcmenu_ip_hierarchy" value="9" description="" />
-   <keyValuePair key="stalemoreaction_force_up_to_date" value="1" description="" />
-   <keyValuePair key="stalemoreaction_out_of_date_details" value="1" description="" />
+   <keyValuePair key="stalemoreaction_force_up_to_date" value="2" description="" />
+   <keyValuePair key="stalemoreaction_out_of_date_details" value="2" description="" />
    <keyValuePair key="syntheticagettingstartedview_recent_projects" value="3" description="" />
    <keyValuePair key="targetchooserpanel_add_xilinx_virtual_cable_as_hardware" value="7" description="" />
-   <keyValuePair key="taskbanner_close" value="10" description="" />
+   <keyValuePair key="taskbanner_close" value="15" description="" />
   </section>
   <section name="java_command_handlers" level="2" order="2" description="">
    <keyValuePair key="addcfgmem" value="2" description="" />
    <keyValuePair key="addsources" value="12" description="" />
-   <keyValuePair key="autoconnecttarget" value="6" description="" />
+   <keyValuePair key="autoconnecttarget" value="19" description="" />
    <keyValuePair key="closetarget" value="1" description="" />
-   <keyValuePair key="fileexit" value="2" description="" />
-   <keyValuePair key="launchopentarget" value="1" description="" />
-   <keyValuePair key="launchprogramfpga" value="6" description="" />
+   <keyValuePair key="editproperties" value="1" description="" />
+   <keyValuePair key="fileexit" value="3" description="" />
+   <keyValuePair key="launchopentarget" value="2" description="" />
+   <keyValuePair key="launchprogramfpga" value="8" description="" />
    <keyValuePair key="makeactivesimset" value="4" description="" />
-   <keyValuePair key="openhardwaremanager" value="6" description="" />
-   <keyValuePair key="openrecenttarget" value="2" description="" />
+   <keyValuePair key="openhardwaremanager" value="10" description="" />
+   <keyValuePair key="openproject" value="4" description="" />
+   <keyValuePair key="openrecenttarget" value="5" description="" />
    <keyValuePair key="opentarget" value="3" description="" />
    <keyValuePair key="programcfgmem" value="1" description="" />
    <keyValuePair key="programdevice" value="1" description="" />
    <keyValuePair key="refreshdevice" value="5" description="" />
-   <keyValuePair key="runbitgen" value="2" description="" />
+   <keyValuePair key="runbitgen" value="3" description="" />
    <keyValuePair key="runimplementation" value="2" description="" />
    <keyValuePair key="runsynthesis" value="1" description="" />
-   <keyValuePair key="showview" value="2" description="" />
+   <keyValuePair key="showview" value="3" description="" />
    <keyValuePair key="simulationrun" value="6" description="" />
    <keyValuePair key="toolssettings" value="1" description="" />
    <keyValuePair key="viewtaskimplementation" value="1" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="5" description="" />
+   <keyValuePair key="guimode" value="7" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">
    <keyValuePair key="constraintsetcount" value="1" description="" />
@@ -454,7 +463,7 @@
    <keyValuePair key="launch_simulation_questa" value="0" description="" />
    <keyValuePair key="launch_simulation_riviera" value="0" description="" />
    <keyValuePair key="launch_simulation_vcs" value="0" description="" />
-   <keyValuePair key="launch_simulation_xsim" value="10" description="" />
+   <keyValuePair key="launch_simulation_xsim" value="14" description="" />
    <keyValuePair key="simulator_language" value="Mixed" description="" />
    <keyValuePair key="srcsetcount" value="4" description="" />
    <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />

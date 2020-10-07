@@ -2,13 +2,13 @@
 # Webtalk v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sun Oct  4 13:10:41 2020
-# Process ID: 1292
-# Current directory: H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim
-# Command line: wbtcv.exe -mode batch -source H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/webtalk.log
-# Journal file: H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim\webtalk.jou
+# Start of session at: Wed Oct  7 08:15:24 2020
+# Process ID: 36496
+# Current directory: C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/webtalk.log
+# Journal file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Oct  4 13:10:43 2020. For additional details about this file, please refer to the WebTalk help file at C:/XilinxVivado/Vivado/2020.1/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Sun Oct  4 13:10:43 2020...
+source C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_3/behav/xsim/xsim.dir/sseg1_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Oct  7 08:15:27 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  7 08:15:27 2020...
