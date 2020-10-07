@@ -53,7 +53,7 @@
 	\lstinputlisting[style=Verilog,#1]{#2}
 }
 
-
+\usepackage[section]{placeins}
 
 
 %======================================================
@@ -137,6 +137,17 @@ The third combinational logic module built was the actual seven-segment itself. 
 	\end{tabular} 
 \end{table}
 
+\begin{figure}[ht]\centering
+\includegraphics[width=0.5\textwidth]{first_digit}
+\caption{This is an image of the the first digit of my Basys3 board lighting up based on what switches were on.}
+\label{fig:original_logo}
+\end{figure}
+\begin{figure}[ht]\centering
+\includegraphics[width=0.5\textwidth]{second_digit}
+\caption{This is an image of the the first digit of my Basys3 board lighting up based on what switches were on.}
+\label{fig:original_logo}
+\end{figure}
+ \FloatBarrier
 \section*{Code}
 
 \Verilog[firstline=22, lastline=31, caption=MUX Verilog code]{Lab06_project/codedirectory/mux2_4b.sv}|

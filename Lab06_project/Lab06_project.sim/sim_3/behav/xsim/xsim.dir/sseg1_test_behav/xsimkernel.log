@@ -2,3 +2,6 @@ Running: xsim.dir/sseg1_test_behav/xsimk.exe -simmode gui -wdb sseg1_test_behav.
 Design successfully loaded
 Design Loading Memory Usage: 5768 KB (Peak: 5768 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6476 KB (Peak: 6476 KB)
+Simulation CPU Usage: 61 ms
