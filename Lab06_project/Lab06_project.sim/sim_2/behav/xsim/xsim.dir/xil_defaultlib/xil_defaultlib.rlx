@@ -2,7 +2,7 @@
 2020.1
 May 27 2020
 20:09:33
-H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/Lab06_project.sim/sim_2/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab06/Lab06_project/Lab06_project.sim/sim_2/behav/xsim/glbl.v,1602173771,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv,1602173771,systemVerilog,,C:/Users/aaron_mendoza1/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder_test.sv,,sseg_decoder,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder_test.sv,1602173771,systemVerilog,,,,sseg_decoder_test,,,,,,,,
 H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/codedirectory/mux2_4b.sv,1601571749,systemVerilog,,,,mux2_4b,,,,,,,,
-H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/codedirectory/sseg_decoder.sv,1601572362,systemVerilog,,H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/codedirectory/sseg_decoder_test.sv,,sseg_decoder,,,,,,,,
-H:/ELC2137/DL202002_aaronmendoza/Lab06/Lab06_project/codedirectory/sseg_decoder_test.sv,1601572707,systemVerilog,,,,sseg_decoder_test,,,,,,,,
